@@ -1,0 +1,27 @@
+body {
+	font-family: 'Times New Roman', Times, Georgia, serif;
+	font-size: 12px;
+	color: #473319;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #630;
+}
+
+p, ul, ol {
+	line-height: 180%;
+	margin-bottom: 1.7em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #ba6313;
+}

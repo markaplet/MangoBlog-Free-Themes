@@ -1,0 +1,12 @@
+Fixes and Updates
+
+October 3, 2008
+Added support for pods.
+Added gravatar support to comments.
+updates stylesheets to support more generalizes content styles.
+
+May 29, 2008
+Corrected issue with excerpt showing on both index.cfm and post.cfm Added proper template code to show excerpt on index and only the message body on the post page.
+
+May 25, 2008
+Added print style sheet to remove extra content from printed page.

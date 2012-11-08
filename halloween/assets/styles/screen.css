@@ -1,0 +1,488 @@
+@charset "UTF-8";
+body  {
+	font: 100%/1.7em "Lucida Grande", Tahoma, "Trebuchet MS", Verdana, sans-serif;
+	background: #000000 url(../images/hell_bg.jpg) repeat-x;
+	margin: 10 0 0;
+	padding: 0;
+	color: #666666;
+}
+ #container {
+	width: 80%;
+	margin: 0 auto;
+	max-width:70em;
+}
+img { border-style: none; }
+
+
+
+/* ----------- Header Graphical Version ----------- */
+ #header {
+	padding: 0 10px;
+	background: url(../images/hell_masthead.png) no-repeat center 15px;
+	margin-bottom: 25px;
+} 
+ #header h1 {
+	margin: 0;
+	display:block;
+	width:100%;
+	height:300px;
+	text-indent:-9009px;
+}
+#header h1 a {
+	display:block;
+	width:100%;
+	height:100%;
+	outline:none;
+}
+
+
+
+/* ----------- Header Text Version ----------- */
+/*#header h1 {
+	text-align: center;
+	padding-top: 20px;
+}
+#header h1 a {
+	color: #990000;
+	text-decoration: none;
+	font-size: 1.8em;
+}
+.tagline {
+	display: block;
+	font-size: 0.4em;
+	color: #666666;
+	font-weight: normal;
+	padding-top: 10px;
+}
+*/
+
+
+
+/* ----------- Main Navigation  ----------- */
+#mainNavigation ul, #mainNavigation ul li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+#mainNavigation ul {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+ }
+#mainNavigation ul li {
+     display: inline;
+     margin-right: .75em;
+ }
+#mainNavigation ul li.last {
+     margin-right: 0;
+ }
+#mainNavigation li a {
+	padding: 5px 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00CC00;
+	margin: 0px;
+	font-size: 1.2em;
+ }
+#mainNavigation li a:hover {
+	color: #FF5800;
+}
+.current          a        {
+}
+
+
+
+/* ----------- Sidebar  ----------- */
+ #sidebar {
+	float: right;
+	width: 14em; 
+	padding: 15px 0;
+}
+#sidebar  h2,  #sidebar  p, #sidebar ul {
+	margin-left: 10px; 
+	margin-right: 10px;
+	font-size: 0.8em;
+}
+#sidebar h2 {
+	border-bottom: 2px solid #1E1E1E;
+	font-size: 1.1em;
+	font-weight: 100;
+	color: #999999;
+}
+#sidebar ul {
+	list-style: none;
+	margin: 0px 0px 30px;
+	padding: 0px 0px 0px 10px;
+}
+#sidebar li {
+	line-height: 1.4em;
+}
+#sidebar li a {
+	color: #666666;
+	text-decoration: none;
+	border-bottom: 1px solid #1E1E1E;
+	display: block;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+}
+#sidebar li a:hover {
+	color: #00CC00;
+}
+#sidebar .mainPage {
+	padding: 0px;
+	margin: 0px;
+}
+#sidebar .subPage {
+	padding-left: 10px;
+	font-size: 1.1em;
+}
+#sidebar legend {
+	display: none;
+}
+#sidebar fieldset {
+	border-style: none;
+}
+#sidebar label {
+	display: block;
+	border-bottom: 2px solid #1E1E1E;
+	margin-bottom: 10px;
+	color: #999999;
+}
+#sidebar #term {
+	width: 98%;
+	border: 1px solid #666666;
+	background: #333333;
+	color: #FF3300;
+	font-size: 1em;
+	font-weight: bold;
+	padding-left: 5px;
+}
+#sidebar #searchBTN {
+	width: 71px;
+	height:18px;
+	text-indent:-9009px;
+	overflow:hidden;
+	border:0;
+	background:url(../images/btn_search.gif) no-repeat 0 0;
+	cursor:pointer !important;
+}
+
+
+
+
+/* ----------- Sidebar Pods ----------- */
+#cloudTagPod a {
+	padding: 3px;
+	margin: 2px;
+	text-decoration: none;
+	color: #00CC00;
+}
+#cloudTagPod {
+	margin-bottom: 30px;
+}
+#cloudTagPod a:hover {
+	background: #333333;
+}
+#flickr {
+	padding-left: 10px;
+}
+#flickr img {
+	background: #333333;
+	padding: 4px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#flickr img:hover {
+	background: #999999;
+}
+
+
+
+
+/* ----------- Main Content  ----------- */
+#mainContent {
+	margin: 0 15em 0 10px;
+	padding-right: 15px;
+	border-right: 1px solid #1E1E1E;
+} 
+#mainContent h1, #mainContent h2, #mainContent h3, #mainContent h4 {
+	color: #CC6600;
+	font-weight: 100;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContent h1 {
+	font-size: 1.7em;
+}
+#mainContent h1 a {
+	color: #CC6600;
+	font-weight: bold;
+	text-decoration: none;
+}
+#mainContent h1 a:hover {
+	color: #FF9900;
+	text-decoration: none;
+}
+#mainContent h2 {
+	font-size: 1.5em;
+}
+#mainContent h3 {
+	font-size: 1.1em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#mainContent h4 {
+	font-size: 1em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+blockquote {
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 1.7em;
+	color: #999999;
+}
+cite  {
+	text-align: right;
+	display: block;
+	font-size: 0.8em;
+	font-style: normal;
+	color: #666666;
+}
+.postFooter {
+	margin-bottom: 60px;
+	float: left;
+	padding: 8px;
+	width: 97%;
+	background: #131313;
+	font-size: .9em;
+	font-weight: bold;
+}
+.postFooter p {
+	margin: 0px;
+	padding: 0px;
+}
+.post {
+	margin-bottom: 40px;
+}
+.post a {
+	color: #00CC00;
+}
+.post a:hover {
+	color: #FF9900;
+	text-decoration: none;
+}
+#archiveHead h3 {
+	color: #999999;
+	text-align: center;
+	border-top: 1px solid #1E1E1E;
+	border-bottom: 3px double #1E1E1E;
+	margin-bottom: 30px;
+}
+
+
+
+/* ----------- Previous Next Buttons  ----------- */
+a.older   {
+	background: url(../images/btn_older.gif) no-repeat;
+	display: block;
+	height: 18px;
+	width: 62px;
+}
+.older, .newer {
+	text-indent: -90009px;
+}
+a.newer   {
+	background: url(../images/btn_newer.gif) no-repeat;
+	display: block;
+	height: 18px;
+	width: 62px;
+}
+#prevNext {
+	margin-bottom: 40px;
+}
+
+
+
+/* ----------- Comment Form  ----------- */
+#commentform fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#commentform legend span {
+position:absolute;
+left:0px;
+top:-500px;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+#personalinfo label {
+	float: right;
+	width: 67%;
+}
+#personalinfo input {
+	width: 30%;
+	background: #333333;
+	border: 1px solid #666666;
+	color: #CCCCCC;
+}
+#commentform #comment {
+	width: 98%;
+	color: #CCCCCC;
+	background: #333333;
+	border: 1px solid #666666;
+}
+#commentform {
+	padding-top: 20px;
+}
+#submit-go {
+	display:block;
+	cursor:pointer;
+	background: #CC6600;
+	border: 1px solid #666666;
+	padding: 5px 20px;
+}
+
+
+
+/* ----------- Comments Area  ----------- */
+h3#comments {
+	border-top: 3px double #1E1E1E;
+	padding-top: 8px;
+}
+.commentblock {
+	padding: 10px;
+	border-top: 1px solid #1e1e1e;
+}
+.highlighted  {
+	color: #999999;
+	background: #131313;
+}
+.highlighted a {
+	color: #999999;
+	font-weight: bold;
+}
+.thumb img  {
+	padding: 3px;
+	margin-right: 20px;
+	border: 1px solid #1E1E1E;
+}
+h2#respond {
+	padding-top: 30px;
+}
+h2#commentsClosed {
+	padding-top: 40px;
+	text-align: center;
+}
+.error {
+	border: 3px solid #990000;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #990000;
+	background: #FFFFCC;
+}
+.success {
+	border: 3px solid #99CC00;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+/* ----------- Footer  ----------- */
+#footer {
+	padding: 0 10px;
+	border-top: 3px double #1E1E1E;
+	font-size: 0.9em;
+} 
+#footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+#footer a, #footer a:visited {
+	color: #CC6600;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #FF9900;
+}
+#footer h4 {
+	color: #999999;
+	margin: 40px 0px 10px;
+	font-size: 1.2em;
+	font-weight: 100;
+	font-variant: small-caps;
+	border-bottom: 3px solid #1E1E1E;
+}
+.footerRecentComments {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.footerRecentComments ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.footerRecentComments ul li {
+	background: url(../images/mini-footer-comments.gif) no-repeat;
+	padding: 0px 0px 10px;
+}
+.footerRecentPosts {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.footerRecentPosts strong {
+	font-size: 107%;
+	line-height: 135%;
+	font-weight: bold;
+}
+.footerRecentPosts ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 92%;
+	line-height: 110%;
+}
+.footerRecentPosts ul li {
+	background: url(../images/mini-footer-post.gif) no-repeat;
+	padding: 0px 0px 10px;
+}
+.footerAbout {
+	width: 30%;
+	float: left;
+	background: url(../images/footer-right-bg.gif) no-repeat;
+}
+
+
+
+/* ----------- Miscellaneous Classes for Reuse  ----------- */
+.clearFix { 
+	clear:both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.postimgLeft {
+	float: left;
+	border: 1px solid #1e1e1e;
+	padding: 3px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.postimgRight {
+	float: right;
+	border: 1px solid #1e1e1e;
+	padding: 3px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

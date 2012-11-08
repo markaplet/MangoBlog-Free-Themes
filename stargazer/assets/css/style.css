@@ -1,0 +1,461 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+CSS and HTML Template Modified by Mark Aplet for Mango Blog May 24, 2008
+
+NOTE:
+The original download from freecsstemplates.org only contained the default graphics. 
+I did my best to recreate the art files and add four additional graphic styles.
+If you would like to change to one of the new designs, simply uncomment the desired
+style below and comment or delete the default import.
+*/
+
+
+/*@import "default.css";*/
+/*@import "orion.css";*/
+/*@import "eagle.css";*/
+/*@import "horsehead.css";*/
+@import "nebula.css";
+
+
+
+/* ---------- Styles to persist across visual28.com ---------- */
+.postThumbnail {
+	margin-right: 5px;
+	padding: 4px;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+img {
+	border: 1px solid #1F1F1F;
+}
+.selfPortriate {
+	margin: 3px 20px 3px 0px;
+}
+
+
+/* ---------- Resets and globals ---------- */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000 url(../images/img01.gif) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999999;
+}
+
+h1, h2, h3 {
+text-shadow: black 0.1em 0.1em 0.15em;
+}
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+.post p, .post ul, .post ol {
+	margin-top: 1.8em;
+	line-height: 180%;
+}
+.post ul, .post ol{
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #CCCCCC;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFFFCC;
+}
+
+hr {
+	display: none;
+}
+#header h1, #header h2, .post h2 {
+	opacity:0.95;
+}
+.fl {float:left;}
+.fr {float:right;}
+
+
+/* ---------------------- Header ---------------------- */
+#header {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+#header h1, #header h2 {
+	float: left;
+	margin: 0;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	padding: 30px 0 0 20px;
+	font-size: 3em;
+}
+
+#header h2 {
+	padding: 47px 0 0 8px;
+	font-size: 1.8em;
+	font-style: italic;
+}
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+/* ---------------------- Menu ---------------------- */
+#menu {
+	width: 960px;
+	height: 51px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 12px 10px 0 20px;
+}
+
+#menu a {
+	text-decoration: none;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+
+/* ---------------------- Pages & Posts ---------------------- */
+#page {
+	width: 920px;
+	margin: 0 auto;
+	padding: 30px 20px 20px 20px;
+}
+#content {
+	float: left;
+	width: 605px;
+}
+.post {
+	margin-bottom: 40px;
+}
+
+.post .title {
+	border-bottom: 1px solid #454545;
+}
+
+.post .title a {
+	text-decoration: none;
+}
+
+.post .entry {
+	padding: 0 20px;
+}
+
+.post .meta {
+	height: 20px;
+	padding: 15px 20px;
+	background: url(../images/img05.gif) no-repeat;
+	line-height: normal;
+}
+
+.post .meta a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.post .meta a:hover {
+	text-decoration: underline;
+}
+
+.post .meta .byline {
+	float: left;
+}
+
+.post .meta .comments {
+	float: right;
+}
+.post h2 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+.post h3 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 1.5em;
+}
+.post h4 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 1.2em;
+}
+.post h5 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 1em;
+}
+.post h6 {
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-size: 0.8em;
+}
+
+.commentlist li {
+	padding: 5px;
+}
+.archive_head {
+	margin-bottom: 20px;
+}
+
+
+/* ---------------------- Forms ---------------------- */
+#commentform  input, #commentform textarea {
+	background: #1F1F1F;
+	border: 1px solid #454545;
+	font-weight: bold;
+	color: #CCCCCC;
+	padding: 3px;
+}
+#commentform textarea {
+	width: 600px;
+}
+#commentform label {
+	padding-left: 15px;
+}
+#commentform p {
+	margin-bottom: 15px;
+}
+#respond {
+	margin-bottom: 15px;
+}
+#commentform #submit {
+	margin-bottom: 10px;
+	padding: 3px 5px;
+	background: #1F1F1F url(../images/img06.gif) no-repeat center center;
+	border: 1px solid #454545;
+	font: bold 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+
+/* ---------------------- Alerts and Messages ---------------------- */
+.error {
+	color: #990000;
+	background: #FFFFCC;
+	padding: 8px;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+	border-top: 3px double #990000;
+	border-bottom: 3px double #990000;
+	margin: 0px 0px 20px;
+}
+
+.success {
+	color: #99CC00;
+	background: #333333;
+	padding: 8px;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+	border-top: 3px double #99CC00;
+	border-bottom: 3px double #99CC00;
+	margin: 0px 0px 20px;
+}
+
+
+/* ---------------------- Comments ---------------------- */
+.commentlist .alt {
+	background: #FDFDE4;
+	border-top: 1px solid #DDD9B8;
+	border-bottom: 1px solid #DDD9B8;
+}
+.commentlist li {
+	padding: 15px 5px;
+	list-style: inside;
+}
+.commentlist ul {
+	display: block;
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+.thumb img {
+	padding: 4px;
+	margin-right: 10px;
+	border: 1px solid #454545;
+}
+.commentblock {
+	margin-bottom: 40px;
+	border-bottom: 3px double #454545;
+	padding: 10px;
+}
+.highlighted  {
+	background: #333333;
+	border-top: 2px solid #666666;
+	border-bottom: 2px solid #666666;
+	padding: 10px;
+}
+#comments  {
+	margin-bottom: 15px;
+}
+.commentblock p {
+	margin-bottom: 30px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.alt {
+	background: #1F1F1F;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+
+/* ---------------------- Sidebar ---------------------- */
+#sidebar {
+	float: right;
+	width: 295px;
+}
+#sidebar h2 {
+	height: 30px;
+	padding: 13px 20px 0;
+	background: url(../images/img06.gif) no-repeat;
+	font-size: 1.6em;
+}
+#sidebar ul   {
+	list-style: none;
+	display: block;
+	padding-bottom: 40px;
+}
+
+#sidebar li {
+	margin-left: 20px;
+	line-height: 1.7em;
+}
+#page #sidebar .list-page {
+	padding-bottom: 10px;
+}
+
+
+.active  {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+.feedSubscribe a {
+	padding-left: 50px;
+	display: block;
+	background: url(../images/rss_icon.gif) no-repeat;
+	height: 16px;
+	margin-left: 20px;
+}
+
+
+/* ---------------------- Search ---------------------- */
+#search {
+	padding: 20px;
+	text-align: center;
+}
+
+#search input {
+	margin-bottom: 10px;
+	padding: 3px 5px;
+	background: #1F1F1F url(../images/img06.gif) no-repeat center center;
+	border: 1px solid #454545;
+	font: bold 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#search #s {
+	width: 80%;
+	background: #1F1F1F;
+}
+.archive_head {
+	font-size: medium;
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+
+/* ---------------------- Calendar: Not currently Used ---------------------- */
+#calendar {
+	padding-bottom: 20px;
+}
+
+#calendar table, #calendar caption {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#calendar caption {
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	font-weight: bold;
+}
+
+#calendar thead th {
+	background: #333333;
+}
+
+#calendar tbody td {
+	background: #111111;
+}
+
+#calendar a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar a:hover {
+	text-decoration: underline;
+}
+#page .previous {
+	font-weight: bold;
+}
+
+
+
+/* ---------------------- Footer ---------------------- */
+#footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: url(../images/img07.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	text-align: center;
+}

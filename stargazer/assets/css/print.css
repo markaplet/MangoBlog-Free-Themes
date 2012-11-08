@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+body {
+	font: 10pt/130% Georgia, "Times New Roman", Times, serif;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+#menu, .meta, #sidebar, #footer, .previous, #respond, #commentform  {
+	display: none;
+}
+
+a[href^="http://"]:after {
+content: "hyperlink: " attr(href);
+}
+#header h1 {
+	float: left;
+	font-size: 24pt;
+}
+#header h2 {
+	float: left;
+	margin-left: 40px;
+	padding-top: 5px;
+	font-style: italic;
+	color: #666666;
+}
+#header h1, #header h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+hr {
+	clear: both;
+}
+.selfPortriate {
+	margin: 3px 20px 3px 0px;
+}

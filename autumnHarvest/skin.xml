@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin id="AutumnHarvest" name="Autumn Harvest" version="1.0" provider-name="Mark Aplet" lastModified="2008-11-05">
+	<description>Free autumn theme from www.mangowear.com</description>
+	<url>http://www.mangowear.com</url>
+	<author>Mark Aplet</author>
+	<authorUrl>http://www.mangowear.com</authorUrl>
+	<designAuthor>Mark Aplet</designAuthor>
+	<designAuthorUrl>http://www.mangowear.com</designAuthorUrl>
+	<thumbnail>assets/img/screenshot.png</thumbnail>
+	<preview></preview>
+	<requiresVersion match="greaterOrEqual">1.0</requiresVersion>
+	<adminEditorCss>assets/css/adminEditor.css</adminEditorCss>
+	<license>Creative Commons Attribution v2.5</license>
+	<pageTemplates></pageTemplates>
+	<podLocations>
+		<location id="sidebar" name="General Sidebar">
+			<pod id="search">Search</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+			<pod id="category-cloud">Category Cloud</pod>
+		</location>
+		<location id="sidebarPages" name="Sidebar For Pages">
+			<pod id="search">Search</pod>
+		</location>
+	</podLocations>
+</skin>

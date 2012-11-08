@@ -1,0 +1,21 @@
+/*
+Title:     ie.css - Autumn Harvest Theme hacks, workarounds & fixes for Internet Explorer. lipstick for the pig
+*/
+
+
+
+/* for IE6 ONLY */
+
+* html .comment { zoom: 1; } /* hasLayout fix */
+
+* #twitter_div #followMe { height: 116px; } /* min-height hack & hasLayout fix */
+
+
+
+/* for IE6/7 */
+
+.commenter { zoom: 1; } /* hasLayout fix */
+
+
+
+/* EOF */

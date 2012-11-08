@@ -1,0 +1,33 @@
+#mainNavigation, #sidebar, #footer, #commentform, #respond {
+	display: none;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+#mainContent a {
+	text-decoration: underline;
+}
+#header h1 {
+	text-align: center;
+	border-bottom: 3px double #000000;
+	padding-bottom: 20pt;
+	font-size: 30pt;
+}
+.tagline {
+	display: block;
+	font-size: 18pt;
+}
+#comments {
+	border-top: 3pt double #000000;
+	padding-top: 20px;
+	margin-top: 40px;
+}
+.commentblock {
+	padding: 10px 0px;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 20px;
+}
+a[href^="http://"]:after {
+content: " (hyperlink: " attr(href) ") ";
+}
