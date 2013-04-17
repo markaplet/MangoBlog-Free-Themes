@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin id="bluemango" name="Blue Mango" version="1.0" provider-name="visual28" lastModified="2009-09-24">
+	<description>Beautiful Blue Mango is a simple theme that pays extra attention attention to typography. This theme uses BlueTrip CSS framework for easy modifications and maintenance.</description>
+	<url></url>
+	<author>Mango Wear</author>
+	<authorUrl>http://www.mangowear.com</authorUrl>
+	<designAuthor>Mark Aplet</designAuthor>
+	<designAuthorUrl>http://www.visual28.com</designAuthorUrl>
+	<thumbnail>assets/images/skin-thumbnail.png</thumbnail>
+	<preview>http://www.mangowear.com/</preview>
+	<requiresVersion match="greaterOrEqual">1.4</requiresVersion>
+	<adminEditorCss>assets/css/adminEditor.css</adminEditorCss>
+	<license>Single user license only</license>
+	<pageTemplates>
+		<template file="fullPage.cfm" name="Full Width Page No Sidebars" />
+	</pageTemplates>
+	<adminPageTemplates>
+		<template id="login" file="login.cfm" />
+	</adminPageTemplates>
+	<podLocations>
+		<location id="sidebar" name="General sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="blog-description">Blog Description</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="rsscategories">Categories With RSS</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-page" name="Page Sidebar">
+			<pod id="page-menu">Page Navigation</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="rsscategories">Categories With RSS</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-archives" name="Archives Sidebar">
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="rsscategories">Categories With RSS</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+	</podLocations>
+</skin>

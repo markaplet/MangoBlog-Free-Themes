@@ -1,0 +1,454 @@
+/*
+     |         |              |              |    
+,---.|--- ,   .|    ,---.,---.|---.,---.,---.|--- 
+`---.|    |   ||    |---'`---.|   ||---'|---'|    
+`---'`---'`---|`---'`---'`---'`   '`---'`---'`---'
+          `---'                                   
+*/
+
+ 
+/* Color Scheme
+----------------------------------------------------------------------
+
+- black		#000
+- white		#fff
+- blue 		#4c5874
+- lt blue	#dee7fb
+- dk blue 	#2e3a56
+
+---------------------------------------------------------------------- */
+
+
+
+/* General classes
+---------------------------------------------------------------------- */
+body {
+	background: url(../images/bg-top-straight.jpg) repeat-x center top;
+}
+.hide {
+	text-indent: -9000px;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+}
+.fl {
+	float: left;
+	display: block;
+}
+.fr {
+	float: right;
+	display: block;
+}
+.left {
+	float: left;
+	margin-right: 10px;
+}
+.right {
+	float: right;
+	margin-left: 10px;
+}
+.addborder {
+	border: 1px solid #CCC;
+	padding: 2px;
+}
+.imgLeft {
+	float: left;
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+.imgRight {
+	float: right;
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+/* Top navigation    
+---------------------------------------------------------------------- */
+ul#topnav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#topnav li {
+	display: inline;
+}
+#topnav li a {
+	text-decoration: none;
+	font: 100 1.5em Baskerville, Georgia, "Times New Roman", serif;
+	color: #dee7fb;
+	margin-top: 8px;
+	padding: 5px 20px 5px 0px;
+	text-transform: uppercase;
+}
+#topnav li a.skiplink{
+	float: right;
+	font-size: 1em;
+	text-transform: lowercase;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+#topnav li a:hover {
+	color: #F2F1FF;
+}
+
+
+/* Header with graphic background
+---------------------------------------------------------------------- */
+#header h1 {
+	display:block;
+	float:left;
+	text-indent:-9009px;
+	margin: 0px;
+	padding: 0px;
+	width:950px;
+	height:214px;
+	background:transparent url(../images/logo.png) no-repeat center center;
+}
+#header h1 a {
+	display:block;
+	width:100%;
+	height:100%;
+	outline:none;
+}
+#header h2 {
+	text-indent: -9000px;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* Header as text only
+---------------------------------------------------------------------- */
+/*#header {
+	width:920px;
+	height:150px;
+	padding-left: 30px;
+	padding-top: 64px;
+}
+#header h1 {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	text-shadow: 1px 1px 1px #FFF;
+}
+#header h1 a {
+	text-decoration: none;
+	font: normal 3.5em Baskerville, Georgia, "Times New Roman", serif;
+	color: #4c5975;
+}
+#header h1 a:visited {
+	color: #4c5975;
+}
+#header h1 a:hover {
+	color: #3a445b;
+}
+#header h2 {
+	color: #4c5975;
+	font-family: Baskerville, Georgia, "Times New Roman", serif;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+*/
+
+/* Main content
+---------------------------------------------------------------------- */
+#maincontent h1 {
+	border-top: 3px solid #2e3a56;
+	padding-top: 1em;
+	margin: 0px 0px 0px;
+	padding-bottom: 0.6em;
+	background: url(../images/dots-horizontal.png) repeat-x left bottom;
+}
+#maincontent h1 a:link{
+	font: 100 1.63em Baskerville, Georgia, "Times New Roman", serif;
+	color: #4c5874;
+	text-decoration: none;
+}
+#maincontent h1 a:visited {
+	color: #4c5874;
+	font: 1.63em Baskerville, Georgia, "Times New Roman", serif;
+	text-decoration: none;
+}
+#maincontent h1 a:hover {
+	color: #7183AD;
+}
+#maincontent h2 , #maincontent h3{
+	font-family: Baskerville, Georgia, "Times New Roman", serif;
+	font-weight: normal;
+	color: #4C5874;
+}
+.page #maincontent h1 {
+	font: 100 2.53em Baskerville, Georgia, "Times New Roman", serif;
+	background: url(none);
+	color: #4c5874;
+	margin: 0px;
+	padding-top: 1em;
+	padding-bottom: 0.6em;
+}
+.meta  {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #2e3a56;
+	padding-top: 18px;
+}
+.meta span {
+	text-align: right;
+	display: block;
+	margin: -18px 0px 0px;
+}
+.meta a {
+	margin-left: 10px;
+}
+.add_comment {
+	float: right;
+}
+.tagged {
+	clear: both;
+	margin-bottom: 36px;
+}
+span.tagged {
+	float: left;
+}
+.previous {
+	float: left;
+}
+.previous a {
+	text-decoration: none;
+	font: 2em Baskerville, Georgia, "Times New Roman", serif;
+}
+.next {
+	float: right;
+}
+.next a {
+	text-decoration: none;
+	font: 2em Baskerville, Georgia, "Times New Roman", serif;
+}
+.archive_head {
+	background: url(../images/dots-horizontal.png) repeat-x left top;
+	padding-top: 18px;
+	margin-top: 0px;
+}
+
+
+/* search form
+---------------------------------------------------------------------- */
+#searchForm { border-top: 3px solid #2e3a56; padding-top: 1em; margin-bottom: 36px; }
+#searchForm fieldset {
+	padding: 0px;
+	border-top: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 0px;
+}
+#searchForm legend {
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	font: normal 1.7em Baskerville, Georgia, "Times New Roman", serif;
+}
+#searchForm input { float: left; }
+button.searchbutton {
+	width:54px;
+	height:21px;
+	text-indent:-9999px;
+	border:0;
+	background:url(../images/btn-search.png) no-repeat 0 0;
+	display:block;
+	cursor:pointer !important;
+	cursor:hand;
+	margin-left: 10px;
+}
+button.searchbutton:hover { background-position:0 -21px; }
+
+
+/* Auxilary sidebar - (Right sidebar)
+---------------------------------------------------------------------- */
+#sidebar h2 {
+	font-family: Baskerville, Georgia, "Times New Roman", serif;
+	font-weight: 100;
+	border-top: 3px solid #2e3a56;
+	padding-top: 1em;
+	margin-top: 0px;
+	padding-bottom: 0.5em;
+	display: block;
+	background: url(../images/dots-horizontal.png) repeat-x left bottom;
+	margin-bottom: 0px;
+}
+#sidebar ul {
+	list-style: none;
+	margin-left: 0px;
+}
+#sidebar li {
+	background: url(../images/dots-horizontal.png) repeat-x left bottom;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 0px;
+	padding-left: 10px;
+	color: #999;
+}
+#sidebar li a:link {
+	text-decoration: none;
+	color: #333;
+}
+#sidebar li a:visited {
+	color: #333;
+	text-decoration: none;
+}
+#sidebar li a:hover {
+	color: #354055;
+	text-decoration: underline;
+}
+#sidebar a.category_rss {
+	float: right;
+}
+#sidebar .tagcloud {
+	margin-top: 9px;
+	margin-bottom: 36px;
+}
+#sidebar ul.podgroup {
+	margin-bottom: 36px;
+}
+#sidebar .podgroup.pagemenu li {
+	background: url(none);
+}
+#sidebar .pagemenu li { margin:0px; padding:0px;}
+#sidebar .pagemenu ul { margin:0px; padding:0px;}
+#sidebar .pagemenu ul, #sidebar .pagemenu ul ul { padding-left:10px;}
+#sidebar .pagemenu { padding-top:9px;}
+#sidebar .pagemenu li a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+#sidebar .pagemenu { padding-left:10px; padding-left:10px;}
+.active {
+	font-weight: bold;
+	color: #000;
+}
+
+
+/* Comments
+---------------------------------------------------------------------- */
+button.submitcomment {
+	width:250px;
+	height:41px;
+	text-indent:-9999px;
+	border:0;
+	background:url(../images/btn-submit-comment.png) no-repeat 0 0;
+	display:block;
+	cursor:pointer !important;
+	cursor:hand;
+	margin-left: 10px;
+}
+button.submitcomment:hover {
+	background-position:0 -41px;
+}
+.comment_num {
+	float: right;
+	font: 1.5em Georgia, "Times New Roman", Times, serif;
+}
+.comment_num a { }
+.comment {
+	background: url(../images/dots-horizontal.png) repeat-x left top;
+}
+ul#comment_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#comment_list li {
+	margin: 18px 0px 0px;
+	padding: 9px 0px 18px;
+}
+#comment_list p { }
+#respond {
+	border-top: 3px double #CCC;
+	padding-top: 9px;
+}
+.comment_time {
+	color: #999;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* Forms
+---------------------------------------------------------------------- */
+label {
+	font-weight: normal;
+}
+#comment_form label {
+	margin-left: 10px;
+}
+
+
+/* Footer
+---------------------------------------------------------------------- */
+#footer {
+	background: #EEE url(../images/bg-footer-top.png) repeat-x;
+	padding: 18px;
+	color: #999;
+	margin-top: 18px;
+	border-top: 1px solid #CCC;
+}
+#footer h3 {
+	font-family: Baskerville, Georgia, "Times New Roman", serif;
+	font-weight: normal;
+	color: #4C5874;
+}
+#footer ul {
+	list-style: none;
+	margin-left: 0px;
+}
+#footer ul li {
+	margin-left: 0px;
+	background: url(../images/dots-horizontal.png) repeat-x;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.copyright { font: 1.16em Georgia, "Times New Roman", Times, serif; }
+#themecredits {
+	color: #CCC;
+	margin-top: 9px;
+}
+#themecredits a:link , #themecredits a:visited{
+	color: #949CAD;
+	text-decoration: none;
+}
+#themecredits a:hover {
+	color: #798398;
+	text-decoration: underline;
+}
+#themecredits p {
+	float: left;
+	margin-right: 18px;
+}
+.top {
+	font-size: 0.834em;
+	margin-top: -18px;
+	text-align: right;
+	clear: both;
+}
+.top a { color: #C60; }
+
+
+/* Additional pod styles
+---------------------------------------------------------------------- */
+#flickr img {
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-top: 9px;
+	margin-right: 9px;
+}

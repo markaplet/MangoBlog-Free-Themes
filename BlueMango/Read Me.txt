@@ -1,0 +1,49 @@
+Blue Mango Theme - By Mark Aplet
+
+Thank you for downloading this Mango Blog theme. I hope you enjoy it. The following notes are here to help you understand what elements are included with this theme. Where you can find additional assets. And how you can modify the template for your needs.  
+
+
+INSTALLATION
+
+Installation is easy. upload the "bluemango" folder to your skins directory. Navigate to the Themes area in your Mango Blog admin and select your new theme to use.
+
+If you intend to use the graphic header with your blog, you will also need to install the unitpngfix plugin included with your download. You can also download the Unit PNG Fix plugin can also be downloaded for free from my personal blog. You can easily find the most recent version by going to http://www.visual28.com/page/projects
+
+Another plugin Wort installing is Anchor Slider. This theme already comes with built in support for sliding anchors. If you enable this plugin, then it will allow the page to slide up and down gracefully when clicking the TOP links in the footer. Having Anchor Slider installed will also allow you to use the same slide effect in the body of your website. This might be handy if you have a page or blog post that is really long and you wish to provide a linked navigation at the top. Something like a FAQ section would really benefit from this plugin.
+
+
+GRAPHIC LOGO
+
+logo.psd - This is the main header graphic file that appears at the top of each page. It's not required for the theme to work, but makes it look especially nice with your own blog header.
+
+The font used for the header is Baskerville Regular. Though Garamond, Georgia, or Times are all good alternates. Baskerville Regular may also be purchased from MyFonts.com for $19.95 http://www.myfonts.com/fonts/urw/baskerville-2/
+
+Save your logo file as a 24 bit png with transparency enabled to the ~/bluemango/assets/images/ folder and name it logo.png Don't forget to upload it to your server.
+
+
+TEXT ONLY LOGO
+
+If you just want to use the text only header logo you may do so by opening the styles.css file located in the ~/bluemango/assets/css/ folder, and commenting out or removing the css styles for the "Header with graphic background" Next you need to remove the css comments from the "Header as text only" section. Then upload to your server.
+
+
+PAGES
+
+This theme has two different types of pages. The standard page includes the sidebar that can be modified in the Pod Manager portion of your Mango Blog admin. It also comes with a full width page perfect for photo galleries, portfolio layout's or some other custom content. 
+
+
+ADMIN STYLES
+
+The admin comes with several predefined styles for this theme. These are not part of the original mango blog installation however I have found them to be helpful in my own blog.
+
+.imgLeft & .imgRight - Applies a float left or right to a thumbnail graphic used in body text. It also applies a color border that matches the theme colors.
+
+
+SOCIAL NETWORKS
+
+Want to learn about special promotions on MangoWear themes or freebies? Then follow me on twitter @mangowear - http://twitter.com/mangowear 
+
+Interested in all things Mango Blog?! I often tweet about new plugins, themes, and other mango blog news from my personal account @visual28 - http://twitter.com/visual28 I also tweet other web, technology, and design news. 
+
+Thank You again for your support of MangoWear and Mango Blog.
+
+Mark Aplet
