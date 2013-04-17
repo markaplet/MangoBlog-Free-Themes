@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#searchForm #term {
+	background: transparent;
+	color: #990033;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 5px;
+	color: #990033;
+	width: 190px;
+}
+#prevNext {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
