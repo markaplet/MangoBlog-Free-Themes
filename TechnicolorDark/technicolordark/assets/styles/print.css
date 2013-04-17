@@ -1,0 +1,19 @@
+#accessibility, #globalNav, #adBlock, #sidebar, #footerWrapper, #prevNext, .tagline, .comments {
+	display: none;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+#branding {
+	font-family: "Century Gothic", "Lucida Grande", Tahoma, Verdana;
+	font-size: 20pt;
+	padding-bottom: 1pt;
+}
+#wrapper {
+	width: 7in;
+}

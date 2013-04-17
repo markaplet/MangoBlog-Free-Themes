@@ -1,0 +1,67 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: Adobe Illustrator(r) 6.0
+%%For: Color Schemer Studio OSX
+%Title: IllustratorColorPalette.ai
+%CreationDate: 2008-10-12 12:01:56 -0700
+%%BoundingBox: 224 631 268 661
+%%HiResBoundingBox: 224.065 631 268 660.5208
+%%DocumentProcessColors: Black
+%%DocumentFonts: Verdana
+%%DocumentNeededResources: procset Adobe_level2_AI5 1.0 0
+%%+ procset Adobe_typography_AI5 1.0 0
+%%+ procset Adobe_screens_AI5 1.0 0
+%%+ procset Adobe_blend_AI5 1.0 0
+%%+ procset Adobe_Illustrator_AI6_vars Adobe_Illustrator_AI6
+%%+ procset Adobe_Illustrator_AI5 1.0 0
+%AI5_FileFormat 2.0
+%AI3_ColorUsage: Color
+%%AI6_ColorSeparationSet: 1 1 (AI6 Default Color Separation Set)
+%%+ Options: 1 16 0 1 0 1 1 1 0 1 1 1 1 18 0 0 0 0 0 0 0 0 -1 -1
+%%+ PPD: 1 21 0 0 60 45 2 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 ()
+%AI3_TemplateBox: 306 396 306 396
+%AI3_TileBox: 31 31 583 761
+%AI3_DocumentPreview: None
+%AI5_ArtSize: 612 792
+%AI5_RulerUnits: 2
+%AI5_ArtFlags: 1 0 0 1 0 0 0 1 0
+%AI5_TargetResolution: 800
+%AI5_NumLayers: 1
+%AI5_OpenToView: -78 780 1 826 581 58 0 1 2 40
+%AI5_OpenViewLayers: 1
+%%EndComments
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+%AI5_BeginPalette
+0 0 Pb
+0.200000 0.600000 0.600000 Xa
+Pc
+0.000000 1.000000 1.000000 Xa
+Pc
+0.647059 0.517647 0.152941 Xa
+Pc
+0.803922 0.600000 0.000000 Xa
+Pc
+1.000000 0.800000 0.400000 Xa
+Pc
+0.282353 0.349020 0.003922 Xa
+Pc
+0.600000 0.000000 0.200000 Xa
+Pc
+0.800000 0.000000 0.266667 Xa
+Pc
+0.600000 0.200000 0.400000 Xa
+Pc
+0.600000 0.600000 0.600000 Xa
+Pc
+0.164706 0.164706 0.164706 Xa
+Pc
+0.129412 0.129412 0.129412 Xa
+Pc
+0.090196 0.090196 0.090196 Xa
+Pc
+PB
+%AI5_EndPalette
+%%EndSetup
+%%Trailer
+%%EOF

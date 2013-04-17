@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<skin id="technicolordark" name="Technicolor Dark" version="1.1" provider-name="Mark Aplet" lastModified="2008-10-03">
+
+	<description>Trendy technicolor dark blog theme. Uses small bright colored elements as accetnts.</description>
+
+	<url></url>
+
+	<author>Mark Aplet</author>
+
+	<authorUrl>http://www.mangowear.com</authorUrl>
+
+	<designAuthor>Mark Aplet</designAuthor>
+
+	<designAuthorUrl>http://www.mangowear.com</designAuthorUrl>
+
+	<thumbnail>assets/images/skin_thumbnail.jpg</thumbnail>
+
+	<preview></preview>
+
+	<requiresVersion match="greaterOrEqual">0.1</requiresVersion>
+
+	<adminEditorCss>assets/styles/adminEditor.css</adminEditorCss>
+	
+	<license>Single Website Use Only</license>
+
+	<pageTemplates></pageTemplates>
+	
+	<podLocations>
+		<location id="sidebar" name="Sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="search">Search</pod>
+			<pod id="adBlock">Advertising Block</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+			<pod id="category-cloud">Category Cloud</pod>
+		</location>
+	</podLocations>
+
+</skin>

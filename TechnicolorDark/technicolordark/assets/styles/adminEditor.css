@@ -1,0 +1,42 @@
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #A58427;
+}
+.postThumbnail {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.button  {
+	font-weight: bold;
+	color: #CD9900;
+	background: url(../images/bg-button.png) repeat-x;
+	padding: 8px;
+	border-left: 1px solid #610e57;
+	border-right: 1px solid #2f2779;
+	border-top: 1px solid #3f2874;
+	border-bottom: 1px solid #3F2874;
+	text-decoration: none;
+}
+.postGFX {
+	padding: 6px;
+	background: url(../images/post-img-frame.png);
+	margin-bottom: 20px;
+}
+.imgLeft {
+	float: left;
+	border: 1px solid #610f58;
+	padding: 3px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.imgRight {
+	float: right;
+	border: 1px solid #26440f;
+	padding: 3px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
